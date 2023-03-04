@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>這一小鍋</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="row align-items-center position-fixed ms-0 me-0 w-100">
+      <div class="col-auto logo me-auto ms-1 ms-lg-3">
+        <img class="w-100" src="./images/logo.png" />
+      </div>
+      <ul class="col-auto d-none d-lg-flex h-100 m-0">
+        <li><a href="#">這一鍋集團網路商城</a></li>
+        <li>
+          <a href="#"><img src="./images/icon_news.svg" /> 最新消息</a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/icon_about.svg" />品牌介紹</a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/icon_menu.svg" />美味菜單</a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/icon_location.svg" />分店據點</a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/icon_faq.svg" />常見問題</a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/icon_contact.svg" />聯絡我們</a>
+        </li>
+      </ul>
+      <ul class="col-auto circle d-none d-lg-flex h-100 me-4 mb-0">
+        <li class="circle1"><a href="#"></a></li>
+        <li class="circle2"><a href="#"></a></li>
+      </ul>
+      <div class="col-auto fs-1 text-white d-block d-lg-none">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <header class="header mb-8">
+      <div class="banner d-flex text-center justify-content-center">
+        <img class="w-50" src="images/banner_title.png" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <section class="section1 container w-100 position-relative mb-5 mb-lg-8">
+        <div class="title maincolor border-title position-absolute bg-body">
+          <table class="border-1 fw-bold bg-body m-1">
+            <tr>
+              <td class="border-1 px-1 px-lg-2">澎</td>
+              <td class="border-1 px-1 px-lg-2">湃</td>
+              <td class="border-1 px-1 px-lg-2">招</td>
+              <td class="border-1 px-1 px-lg-2">呼</td>
+              <td class="border-1 px-1 px-lg-2">！</td>
+              <td class="border-1 px-1 px-lg-2">好</td>
+              <td class="border-1 px-1 px-lg-2">消</td>
+              <td class="border-1 px-1 px-lg-2">息</td>
+              <td class="border-1 px-1 px-lg-2">報</td>
+              <td class="border-1 px-1 px-lg-2">你</td>
+              <td class="border-1 px-1 px-lg-2">知</td>
+            </tr>
+          </table>
+        </div>
+        <div class="slogan slogan-left flex-column d-none d-lg-flex">
+          <span class="solid-circle circle-top">不</span>
+          <span class="solid-circle circle-middle">能</span>
+          <span class="solid-circle circle-middle">解</span>
+          <span class="solid-circle circle-middle">決</span>
+          <span class="solid-circle circle-middle">的</span>
+          <span class="solid-circle circle-middle">事</span>
+          <span class="solid-circle circle-middle">，</span>
+          <span class="solid-circle circle-middle">明</span>
+          <span class="solid-circle circle-middle">天</span>
+          <span class="solid-circle circle-middle">再</span>
+          <span class="solid-circle circle-bottom">說</span>
+        </div>
+
+        <div class="slogan slogan-right flex-column d-none d-lg-flex">
+          <span class="solid-circle circle-top">能</span>
+          <span class="solid-circle circle-middle">解</span>
+          <span class="solid-circle circle-middle">決</span>
+          <span class="solid-circle circle-middle">的</span>
+          <span class="solid-circle circle-middle">事</span>
+          <span class="solid-circle circle-middle">，</span>
+          <span class="solid-circle circle-middle">不</span>
+          <span class="solid-circle circle-middle">必</span>
+          <span class="solid-circle circle-middle">去</span>
+          <span class="solid-circle circle-middle">擔</span>
+          <span class="solid-circle circle-bottom">心</span>
+        </div>
+
+        <div class="position-absolute lightimg">
+          <img src="./images/bgitem1.png" />
+        </div>
+        <div class="position-absolute foodimg d-none d-lg-block">
+          <img src="./images/bgitem2.png" />
+        </div>
+        <div class="position-absolute foodimg2 d-none d-lg-block">
+          <img src="./images/bgitem3.png" />
+        </div>
+        <div class="row news p-4 p-lg-6 pb-5">
+          <!-- 大新聞 -->
+          <div
+            class="col-12 col-lg-6 news-left pt-3 pt-lg-0 pe-lg-5 pb-3 mb-3 pb-lg-0 mb-lg-0"
+          >
+            <div class="imgWrap mb-4 mb-lg-5">
+              <img src="./images/news1.jpg" />
+            </div>
+            <div class="caption d-flex">
+              <div class="lg-date w-40 d-none d-lg-inline">
+                <p class="num m-0">2022<span>年</span> 05<span>月</span></p>
+                <h1 class="m-0">31</h1>
+                <p class="tue">星期二</p>
+              </div>
+              <div class="news_title me-4 flex-column d-none d-lg-flex">
+                <div class="circle_text">最</div>
+                <div class="circle_text">新</div>
+                <div class="circle_text">活</div>
+                <div class="circle_text">動</div>
+              </div>
+              <div class="news_title_sm d-flex d-lg-none mb-4">
+                <div class="circle_text_sm fs-6">最</div>
+                <div class="circle_text_sm fs-6">新</div>
+                <div class="circle_text_sm fs-6">活</div>
+                <div class="circle_text_sm fs-6">動</div>
+              </div>
+              <div class="newsText">
+                <h4 class="fs-5 mb-3 fw-bolder">外帶生鮮套餐65折起</h4>
+                <p class="fs-7" style="font-family: 微軟正黑體">
+                  外帶生鮮套餐65折起，訂購請洽各門店。
+                </p>
+              </div>
+              <div class="sm-date d-block d-lg-none">
+                2020 <span>年</span> 11 <span> 月</span>30 <span>日</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 小新聞 -->
+          <div class="col-12 col-lg-6 news_right d-flex flex-column ps-lg-5">
+            <!-- new1 -->
+            <div
+              class="new-sm col d-flex border-bottom pb-3 mb-3 border-thincolor"
+            >
+              <div class="imgWrap col-12 col-lg-5 mb-4 mb-lg-0">
+                <img src="./images/news2.jpg" />
+              </div>
+              <div class="caption_sm ps-0 ps-lg-4 pt-2 col-12 col-lg-7">
+                <div class="news_title_sm d-flex mb-4">
+                  <div class="circle_text_sm fs-6">最</div>
+                  <div class="circle_text_sm fs-6">新</div>
+                  <div class="circle_text_sm fs-6">活</div>
+                  <div class="circle_text_sm fs-6">動</div>
+                </div>
+                <div class="newsText">
+                  <h4 class="fs-5 mb-3 fw-bolder">外帶熟食小鍋全品項8折</h4>
+                  <p class="fs-7 d-lg-none" style="font-family: 微軟正黑體">
+                    外帶生鮮套餐65折起，訂購請洽各門店。
+                  </p>
+                  <div class="sm-date">
+                    2022 <span>年</span> 05 <span> 月</span>31 <span>日</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- new2 -->
+            <div class="new-sm col d-flex border-bottom pb-3 mb-3">
+              <div class="imgWrap col-12 col-lg-5 mb-4 mb-lg-0">
+                <img src="./images/news3.jpg" />
+              </div>
+              <div class="caption_sm ps-0 ps-lg-4 pt-2 col-12 col-lg-7">
+                <div class="news_title_sm d-flex mb-4">
+                  <div class="circle_text_sm fs-6">最</div>
+                  <div class="circle_text_sm fs-6">新</div>
+                  <div class="circle_text_sm fs-6">活</div>
+                  <div class="circle_text_sm fs-6">動</div>
+                </div>
+                <div class="newsText">
+                  <h4 class="fs-5 mb-3 fw-bolder">
+                    新上市<br />鮮辣回甘剝皮辣椒鍋
+                  </h4>
+                  <p class="fs-7 d-lg-none" style="font-family: 微軟正黑體">
+                    外帶生鮮套餐65折起，訂購請洽各門店。
+                  </p>
+                  <div class="sm-date">
+                    2022 <span>年</span> 04 <span> 月</span>25 <span>日</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- new3 -->
+            <div class="new-sm col d-flex border-bottom pb-3 mb-3">
+              <div class="imgWrap col-12 col-lg-5 mb-4 mb-lg-0">
+                <img src="./images/news4.jpg" />
+              </div>
+              <div class="caption_sm ps-0 ps-lg-4 pt-2 col-12 col-lg-7">
+                <div class="news_title_sm d-flex mb-4">
+                  <div class="circle_text_sm fs-6">品</div>
+                  <div class="circle_text_sm fs-6">牌</div>
+                  <div class="circle_text_sm fs-6">告</div>
+                  <div class="circle_text_sm fs-6">示</div>
+                </div>
+                <div class="newsText">
+                  <h4 class="fs-5 mb-3 fw-bolder">反詐騙公告</h4>
+                  <p class="fs-7 d-lg-none" style="font-family: 微軟正黑體">
+                    外帶生鮮套餐65折起，訂購請洽各門店。
+                  </p>
+                  <div class="sm-date">
+                    2020 <span>年</span> 11 <span> 月</span>30 <span>日</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="maincolor fw-bold newbutton align-self-center align-self-lg-end p-3 d-flex"
+            >
+              <div class="h-100">繼續挖寶</div>
+              <div class="arrow h-100 ms-2">
+                <img src="./images/arrow.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section2 w-100 pt-2 pt-lg-12">
+        <div class="soupinfo position-relative">
+          <div
+            class="sectitle maincolor border-title position-absolute bg-body"
+          >
+            <table class="border-1 fw-bold bg-body m-1">
+              <tr>
+                <td class="border-1 px-1 px-lg-2">天</td>
+                <td class="border-1 px-1 px-lg-2">天</td>
+                <td class="border-1 px-1 px-lg-2">熬</td>
+                <td class="border-1 px-1 px-lg-2">湯</td>
+                <td class="border-1 px-1 px-lg-2">頭</td>
+                <td class="border-1 px-1 pe-lg-2 ps-lg-12">總</td>
+                <td class="border-1 px-1 px-lg-2">會</td>
+                <td class="border-1 px-1 px-lg-2">熬</td>
+                <td class="border-1 px-1 px-lg-2">出</td>
+                <td class="border-1 px-1 px-lg-2">頭</td>
+              </tr>
+            </table>
+          </div>
+          <div class="title-pic position-absolute d-none d-lg-block">
+            <img src="./images/title-p.png" />
+          </div>
+          <div class="news_title_sm d-flex mb-4 align-items-center mb-3">
+            <div class="circle_text_soup fs-5-5 bg-main">幸</div>
+            <div class="circle_text_soup fs-5-5 bg-red">福</div>
+            <div class="circle_text_soup fs-5-5 bg-main">調</div>
+            <div class="circle_text_soup fs-5-5 bg-red">味</div>
+            <div class="circle_text_soup fs-5-5 bg-main">人</div>
+            <div class="circle_text_soup fs-5-5 bg-red">情</div>
+            <div class="circle_text_soup fs-5-5 bg-main">入</div>
+            <div class="circle_text_soup fs-5-5 bg-red">味</div>
+          </div>
+          <div class="souptitle fs-4-5 fw-bold mb-3">
+            源自對湯頭的堅持，<br />
+            重現記憶中的傳統經典鍋物。
+          </div>
+          <p class="souptext font-second fs-7">
+            一個承載豐厚飲食文化，裝盛濃郁情感的個人精緻鍋物專門店,
+            以現代感的設計語彙，揉合著寫意東方的新中式氣息，體驗空間裡傳遞出的人文情感
+            。
+          </p>
+          <div
+            class="seccolor fw-bold align-self-center align-self-lg-end d-flex"
+          >
+            <div class="h-100">繼續挖寶</div>
+            <div class="arrow h-100 ms-5">
+              <img src="./images/arrow2.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section3 bg-main pt-5 position-relative">
+        <div class="bgitem5 position-absolute">
+          <img class="w-100" src="./images/bgitem5.png" />
+        </div>
+        <div class="bgitem6 position-absolute">
+          <img src="./images/bgitem6.png" />
+        </div>
+        <div class="thititle maincolor border-title bg-body position-absolute">
+          <table class="border-1 fw-bold bg-body m-1 text-center">
+            <tr>
+              <td class="border-1 px-1 px-lg-2">湯</td>
+              <td class="border-1 px-1 px-lg-2">頭</td>
+              <td class="border-1 px-1 px-lg-2">專</td>
+              <td class="border-1 px-1 px-lg-2">門</td>
+            </tr>
+          </table>
+        </div>
+        <div class="hr"></div>
+        <p class="container text-white text-center font-second">
+          傳承經典味道，經典中賦予現代風味，讓人想一再回味的好湯頭，<br />
+          若是嚐到動人的滋味，不只是食材，還有人心。
+        </p>
+      </section>
+      <section class="section4 container-fluid">
+        <div class="row w-100 h-100 m-0 position-relative">
+          <div class="leftarrow"><img src="./images/arrow-left.png" /></div>
+          <div class="rightarrow"><img src="./images/arrow-right.png" /></div>
+          <div class="col-12 col-lg-3 soupimg1 position-relative">
+            <div class="soupname position-absolute pt-7 pt-lg-10">
+              <div class="soupwordimg mb-5">
+                <img src="./images/souptext1.png" />
+              </div>
+              <div class="soup-slogan flex-column m-auto">
+                <span class="soup-circle bg-red text-white outline-red"
+                  >經</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >典</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >石</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >頭</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >鍋</span
+                >
+              </div>
+            </div>
+            <div
+              class="bluehover position-absolute w-100 h-100 d-none d-lg-block"
+            ></div>
+          </div>
+          <div class="col-3 soupimg2 position-relative p-0 d-none d-lg-block">
+            <div class="soupname position-absolute pt-lg-10">
+              <div class="soupwordimg mb-5">
+                <img src="./images/souptext2.png" />
+              </div>
+              <div class="soup-slogan flex-column m-auto">
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >源</span
+                >
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >味</span
+                >
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >大</span
+                >
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >骨</span
+                >
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >鍋</span
+                >
+              </div>
+            </div>
+            <div class="redhover position-absolute w-100 h-100"></div>
+          </div>
+          <div class="col-3 soupimg3 position-relative p-0 d-none d-lg-block">
+            <div class="soupname position-absolute pt-lg-10">
+              <div class="soupwordimg mb-5">
+                <img src="./images/souptext3.png" />
+              </div>
+              <div class="soup-slogan flex-column m-auto">
+                <span class="soup-circle bg-red text-white outline-red"
+                  >御</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >膳</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >麻</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >辣</span
+                >
+                <span class="soup-circle bg-red text-white outline-red"
+                  >鍋</span
+                >
+              </div>
+            </div>
+            <div class="bluehover position-absolute w-100 h-100"></div>
+          </div>
+          <div class="col-3 soupimg4 position-relative p-0 d-none d-lg-block">
+            <div class="soupname position-absolute pt-lg-10">
+              <div class="soupwordimg mb-5">
+                <img src="./images/souptext4.png" />
+              </div>
+              <div class="soup-slogan flex-column m-auto">
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >老</span
+                >
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >火</span
+                >
+                <span class="soup-circle bg-main text-white outline-blue"
+                  >湯</span
+                >
+              </div>
+            </div>
+            <div class="redhover position-absolute w-100 h-100"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section5 w-100">
+        <div class="row w-100 m-0">
+          <div class="col-12 col-lg-6 bgimg"></div>
+          <div class="col-12 col-lg-6 p-4 pt-lg-7 px-lg-5">
+            <div class="location">
+              <div class="location-up pt-6 pt-lg-10 position-relative d-flex">
+                <div class="loc-lightimg position-absolute">
+                  <img src="./images/bgitem1.png" />
+                </div>
+                <div class="position-absolute loc-foodimg d-none d-lg-block">
+                  <img src="./images/bgitem3.png" />
+                </div>
+                <div class="position-absolute loc-foodimg2 d-none d-lg-block">
+                  <img src="./images/bgitem2.png" />
+                </div>
+
+                <div
+                  class="loc-title maincolor border-title position-absolute bg-body"
+                >
+                  <table class="border-1 fw-bold bg-body m-1">
+                    <tr>
+                      <td class="border-1 px-1 px-lg-2">這</td>
+                      <td class="border-1 px-1 px-lg-2">一</td>
+                      <td class="border-1 px-1 px-lg-2">小</td>
+                      <td class="border-1 px-1 px-lg-2">鍋</td>
+                      <td class="border-1 px-1 px-lg-2">抵</td>
+                      <td class="border-1 px-1 px-lg-2">家</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="location-bottom mt-1 d-flex">
+                <div
+                  class="loc-option d-flex mt-3 mt-lg-6 justify-content-center mb-3"
+                >
+                  <div class="big-circle">北部</div>
+                  <div class="big-circle">中部</div>
+                  <div class="big-circle">南部</div>
+                </div>
+                <div class="loc-detail ps-0 ps-lg-6">
+                  <div class="smarrow mb-2 col-12 col-lg-9">
+                    <img src="./images/arrow-up.svg" />
+                  </div>
+                  <div class="d-flex mb-1 mb-lg-4">
+                    <div>
+                      <div class="loc-smcircle">北</div>
+                      <div class="loc-smcircle">部</div>
+                    </div>
+                    <div class="ms-3 me-2 col-10 col-lg-9">
+                      <h5 class="maincolor fw-bold">台北誠品站前店</h5>
+                      <p class="fs-7 font-second text-ellipsis m-0">
+                        位置資訊&nbsp;|&nbsp;<span class="maincolor font-second"
+                          >台北市中山區忠孝東路3號</span
+                        >
+                      </p>
+                      <p class="fs-7 font-second text-ellipsis m-0 mb-1">
+                        門店電話&nbsp;|&nbsp;<span class="maincolor font-second"
+                          >02-2382-0138</span
+                        >
+                      </p>
+                      <div class="menu d-flex">
+                        <img src="./images/icon-bell.png" />
+                        <span class="fs-7 menubtn">查看菜單</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-flex mb-4">
+                    <div>
+                      <div class="loc-smcircle">北</div>
+                      <div class="loc-smcircle">部</div>
+                    </div>
+                    <div class="ms-3 me-2 col-9">
+                      <h5 class="maincolor fw-bold">台北誠品站前店</h5>
+                      <p class="fs-7 font-second text-ellipsis m-0">
+                        位置資訊&nbsp;|&nbsp;<span class="maincolor font-second"
+                          >台北市中山區忠孝東路3號</span
+                        >
+                      </p>
+                      <p class="fs-7 font-second text-ellipsis m-0 mb-1">
+                        門店電話&nbsp;|&nbsp;<span class="maincolor font-second"
+                          >02-2382-0138</span
+                        >
+                      </p>
+                      <div class="menu d-flex">
+                        <img src="./images/icon-bell.png" />
+                        <span class="fs-7 menubtn">查看菜單</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-flex mb-2">
+                    <div>
+                      <div class="loc-smcircle">北</div>
+                      <div class="loc-smcircle">部</div>
+                    </div>
+                    <div class="ms-3 me-2 col-9">
+                      <h5 class="maincolor fw-bold">台北誠品站前店</h5>
+                      <p class="fs-7 font-second text-ellipsis m-0">
+                        位置資訊&nbsp;|&nbsp;<span class="maincolor font-second"
+                          >台北市中山區忠孝東路3號</span
+                        >
+                      </p>
+                      <p class="fs-7 font-second text-ellipsis m-0 mb-1">
+                        門店電話&nbsp;|&nbsp;<span class="maincolor font-second"
+                          >02-2382-0138</span
+                        >
+                      </p>
+                      <div class="menu d-flex">
+                        <img src="./images/icon-bell.png" />
+                        <span class="fs-7 menubtn">查看菜單</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="smarrow col-12 col-lg-9">
+                    <img src="./images/arrow-down.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div
+        class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between logo-border pb-4"
+      >
+        <div class="logo-left">
+          <img src="./images/logo2.png" />
+        </div>
+        <div class="logo-right mt-3 mt-lg-0">
+          <p class="text-white font-second fs-55">
+            各種滋味&nbsp;盡在這一鍋餐飲集團
+          </p>
+          <div class="d-flex justify-content-center justify-content-lg-end">
+            <img class="col-5" src="./images/logo3.png" />
+            <img class="col-5 ms-3" src="./images/logo4.svg" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="info d-flex justify-content-between pt-3 pt-lg-5 mt-1 flex-column flex-lg-row"
+      >
+        <div
+          class="info-left d-flex align-items-center flex-column flex-lg-row"
+        >
+          <div
+            class="col-12 col-lg-3 px-45 py-2 border border-1 text-white fs-7 text-center font-second"
+          >
+            線上購物
+          </div>
+          <div
+            class="d-flex mt-3 mt-lg-0 ms-0 ms-lg-3 align-content-center justify-content-center justify-content-lg-start"
+          >
+            <div class="iconwrap me-3 me-lg-1">
+              <img src="./images/icon-fb.png" />
+            </div>
+            <div class="iconwrap me-3 me-lg-1">
+              <img src="./images/icon_line.png" />
+            </div>
+            <div class="igwrap">
+              <img src="./images/icon-ig.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="info-right mt-3 mt-lg-0">
+          <ul class="d-none d-lg-flex text-white fs-7 list-unstyled m-0">
+            <li class="font-second">隱私權條款&nbsp;</li>
+            <li class="font-second">｜&nbsp;使用條款&nbsp;</li>
+            <li class="font-second">｜&nbsp;免付費客服專線：0800-265168</li>
+          </ul>
+          <div
+            class="d-block d-lg-none text-white fs-7 list-unstyled text-center m-0"
+          >
+            <div class="font-second">
+              隱私權條款&nbsp;｜&nbsp;使用條款&nbsp;
+            </div>
+            <div class="font-second">免付費客服專線：0800-265168</div>
+          </div>
+
+          <ul
+            class="mt-3 mt-lg-0 d-flex text-light fs-7 list-unstyled justify-content-center justify-content-lg-end"
+          >
+            <li class="font-second">Copyright&copy;這一小鍋&nbsp;</li>
+            <li class="font-second">｜&nbsp;Design&nbsp;by&nbsp;iBest</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footnav position-fixed text-white d-block d-lg-none py-2">
+      <ul
+        class="d-flex list-unstyled justify-content-center align-items-center m-0 fs-7"
+      >
+        <li class="px-4 border-right">美味菜單</li>
+        <li class="px-4 border-right">分店據點</li>
+        <li class="px-4">分享好友</li>
+      </ul>
+    </div>
+  </body>
+</html>
